@@ -12,7 +12,7 @@
     height: 500px;
 }
 
-.debug .portfolio .col-12{
+.debug .portfolio .box{
     background-color: lightsalmon;
     border: 1px solid red;
     height: 200px;
@@ -37,6 +37,7 @@ header{
 .header-row{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 /*---------------
@@ -44,6 +45,13 @@ header{
 ----------------*/
 .hero{
     background-color: #1abc9c;
+}
+
+/*---------------
+    PORTFOLIO
+----------------*/
+.portfolio{
+    margin: 50px 0;
 }
 
 /*---------------
