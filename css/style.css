@@ -1,0 +1,53 @@
+/*---------------
+      DEBUG
+----------------*/
+.debug header .container-md{
+    background-color: brown;
+    height: 100%;
+}
+
+.debug .hero .custom-container{
+    background-color: lightcoral;
+    height: 100%;
+    text-align: center;
+}
+
+.hero{
+    height: 500px;
+}
+
+.debug .portfolio .col-12{
+    background-color: lightsalmon;
+    border: 1px solid red;
+    height: 200px;
+}
+
+/*---------------
+    CUSTOM
+----------------*/
+.custom-container{
+    max-width: 600px;
+    margin: auto;
+}
+
+/*---------------
+    HEADER
+----------------*/
+header{
+    height: 90px;
+    background-color: #2c3e50;
+}
+
+/*---------------
+    HERO
+----------------*/
+.hero{
+    background-color: #1abc9c;
+}
+
+/*---------------
+    ABOUT
+----------------*/
+.about{
+    background-color: #1abc9c;
+}
