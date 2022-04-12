@@ -6,6 +6,25 @@
     margin: auto;
 }
 
+.rowstar{
+    display: flex;
+    column-gap: 3%;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-rowstar{
+    width: 20%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.star-rowstar{
+    font-size: 30px;
+}
+
+
 /*---------------
     HEADER
 ----------------*/
