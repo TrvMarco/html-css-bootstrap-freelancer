@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -12,13 +14,13 @@
 <body>
     <!-- Testata principale con nav -->
     <header class="text-white fw-bold">
-        <div class="container">  
+        <div class="container">
             <div class="row text-uppercase align-items-center">
                 <div class="col-6">
                     <h4>Start Bootstrap</h4>
                 </div>
                 <div class="col-6">
-                    <nav class="header-nav">
+                    <nav class="header-nav d-none d-md-block">
                         <ul>
                             <li><a href="#">Portfolio</a></li>
                             <li><a href="#">About</a></li>
@@ -33,9 +35,9 @@
     <main>
         <!-- Hero -->
         <section class="hero text-white text-uppercase py-5">
-            <div class="custom-container">
-                <div class="container-fluid text-center">
-                    <img class="hero-img" src="img/avatar.svg" alt="Avatar img"> 
+            <div class="container">
+                <div class="text-center">
+                    <img class="hero-img pb-3" src="img/avatar.svg" alt="Avatar img"> 
                     <h1>Start bootstrap</h1>
                     <h5>Grafic artist - web designer - illustrator</h5>
                 </div>
@@ -45,33 +47,33 @@
         <section class="portfolio py-5">
             <div class="container text-center text-uppercase">
                 <h2>Portfolio</h2>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box-portfolio-img">
                             <img class="img-fluid" src="img/cabin.png" alt="portfolio img">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box-portfolio-img">
                             <img class="img-fluid" src="img/cake.png" alt="portfolio img">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box-portfolio-img">
                             <img class="img-fluid" src="img/circus.png" alt="portfolio img">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box-portfolio-img">
                             <img class="img-fluid" src="img/game.png" alt="portfolio img">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box-portfolio-img">
                             <img class="img-fluid" src="img/safe.png" alt="portfolio img">
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 g-3">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box-portfolio-img">
                             <img class="img-fluid" src="img/submarine.png" alt="portfolio img">
                         </div>
@@ -80,25 +82,27 @@
             </div>
         </section>
         <!-- About -->
-        <section class="about py-5">
-            <div class="container text-center">
-                <h2>About</h2>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae deserunt, unde quia animi tenetur. Dolores quae iure odit, voluptatem nesciunt dicta maiores. Tempore ipsum vero aut quisquam nisi doloribus.</p>
+        <section class="about py-5 text-white">
+            <div class="custom-container">
+                <div class="container-fluid">
+                    <h2 class="text-uppercase text-center">About</h2>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae deserunt, unde quia animi tenetur. Dolores quae iure odit, voluptatem nesciunt dicta maiores. Tempore ipsum vero aut quisquam nisi doloribus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sapiente nostrum corrupti! Veniam placeat autem et suscipit error animi enim, quaerat ut nesciunt amet ea quos tempore reiciendis illum veritatis.</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugiat omnis cumque, natus magnam doloribus dolorem, eius quod molestiae facere voluptatem quos itaque fuga quis, fugit enim vitae amet. Quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam neque omnis ex impedit ipsum sapiente explicabo quae atque nam! Voluptatibus incidunt molestias iusto laudantium nobis quia eaque nam laborum.</p>
+                        </div>
+                        <div class="text-center"><button type="button" class="btn btn-outline-light"><i class="bi bi-download"></i> Download</button></div>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugiat omnis cumque, natus magnam doloribus dolorem, eius quod molestiae facere voluptatem quos itaque fuga quis, fugit enim vitae amet. Quisquam.</p>
-                    </div>
-                    <div><button>Download</button></div>
-                </div>
+                </div>    
             </div>
         </section>
         <!-- Form Contattami -->
         <section class="contact py-5">
             <div class="custom-container">
                 <div class="container-fluid">
-                    <h2>Contact me</h2>
+                    <h2 class="text-uppercase" >Contact me</h2>
                     <form class="contact-me">
                         <input type="text" placeholder="Name">
                         <input type="email" name="" id="" placeholder="Email Adress">
@@ -111,7 +115,7 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer>
+    <footer class="text-white">
         <!-- Footer top -->
         <section class="footer-top py-5">
             <div class="container">
