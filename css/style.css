@@ -14,10 +14,14 @@
 }
 
 .row-rowstar{
-    width: 20%;
+    width: 15%;
     height: 4px;
     background-color: #fff;
     border-radius: 20px;
+}
+
+.row-rowstar-bg_black{
+    background-color: #000;
 }
 
 .star-rowstar{
