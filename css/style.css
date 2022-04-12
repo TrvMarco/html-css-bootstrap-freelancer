@@ -1,13 +1,4 @@
 /*---------------
-      DEBUG
-----------------*/
-.debug .portfolio .box{
-    background-color: lightsalmon;
-    border: 1px solid red;
-    height: 200px;
-}
-
-/*---------------
     CUSTOM
 ----------------*/
 .custom-container{
@@ -52,6 +43,10 @@ header ul{
 /*---------------
     PORTFOLIO
 ----------------*/
+.box-portfolio-img{
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 /*---------------
     ABOUT
