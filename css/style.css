@@ -69,6 +69,31 @@ header ul{
 .box-portfolio-img{
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1abc9c;
+    opacity: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.box-portfolio-img:hover .overlay{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.plus{
+    font-size: 70px;
+    color: #fff;
+    z-index: 10;
 }
 
 /*---------------
