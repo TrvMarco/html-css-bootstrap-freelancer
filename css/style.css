@@ -106,9 +106,13 @@ header ul{
 /*---------------
    CONTACT ME
 ----------------*/
-.contact-me{
-    display: flex;
-    flex-direction: column;
+.form-control{
+    border: none;
+}
+
+#form-name, #form-email, #form-tel, #form-texarea{
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0%;
 }
 
 /*---------------
